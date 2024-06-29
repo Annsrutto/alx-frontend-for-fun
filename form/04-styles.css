@@ -695,7 +695,7 @@
     outline: 0;
   }
 
-  input[type="text"], [type="email"] {
+  input[type="text"], input[type="email"] {
     padding-right: 3rem;
   }
 
