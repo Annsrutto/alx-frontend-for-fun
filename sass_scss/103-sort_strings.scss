@@ -1,8 +1,12 @@
 /* My style */
-$list_to_sort: john anna zoe kim felicia carrie;
+$list_to_sort: bob anna sylvain john ludo colin patrick;
 
 @function sort-list($list) {
-    @return sort($list);
+    $sorted: ();
+    @each $item in sort($list) {
+        $sorted: append($sorted, $item);
+    }
+    @return $sorted;
 }
 
 $sorted_list: sort-list($list_to_sort);
