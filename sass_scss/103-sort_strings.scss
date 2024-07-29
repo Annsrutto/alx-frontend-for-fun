@@ -1,8 +1,5 @@
-/* My Style */
+/* Sorts the variable $list_to_sort and prints the sorted list in the debug output */
+
 @import '103-sort_list';
 
-$sorted_list: anna carrie felicia john kim zoe;
-
-@each $name in $sorted_list {
-  @debug $name;
-}
+@debug $list_to_sort;
