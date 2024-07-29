@@ -1,5 +1,4 @@
-/* Sorts the variable $list_to_sort and prints the sorted list in the debug output */
-
+/* Sort strings */
 $list_to_sort: john anna zoe kim felicia carrie;
 
 @function str-compare($a, $b) {
